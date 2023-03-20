@@ -78,10 +78,12 @@
 
    <img src="lab-pic/2.png" alt="1" style="zoom:25%;" />
 
-6. 之后就是创建debug.txt和下载 Logisim and Venus。有关提交我觉得就到自己的repo应该就到头了，autograde工具是不对校外学生开放的。
+6. 之后就是创建debug.txt和下载 Logisim and Venus。有关提交我觉得就到自己的repo应该就到头了，手册上说的autograde工具是不对校外学生开放的。
 
 7. 一些Vim用法。不用vim。学了也会忘记。
 
 
 
-## Lab01：
+## Lab01：C的练习
+
+- 回忆了C语言的关键之处。对指针的理解很到位。

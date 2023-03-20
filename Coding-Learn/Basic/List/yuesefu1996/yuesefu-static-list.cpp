@@ -1,7 +1,7 @@
 // 结构体数组来实现单向静态链表
 #include <bits/stdc++.h>
 
-#define N 103
+#define N 105
 struct node{
     int id,nextid;
 }nodes[N];
@@ -21,7 +21,8 @@ int main(){
     while((n--)>1){
         for(int i=1;i<m;i++){
             prev = now;
-            now = nodes[i].nextid;
+            // 第一遍写的问题就在于这里，我写成了now=nodes[i].nextid;问题很大
+            now = nodes[now].nextid;
         }
         //现在now==m
         printf("%d ",nodes[now].id);
